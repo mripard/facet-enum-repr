@@ -8,3 +8,4 @@ updates:
       facet:
         patterns:
           - "facet*"
+          - "unsynn"
