@@ -13,7 +13,7 @@ fn find_enum_repr(val: &facet_macros_parse::Enum) -> String {
         .iter()
         .filter_map(|attr| {
             if let AttributeInner::Repr(repr_attr) = &attr.body.content {
-                if repr_attr.attr.content.0.is_empty() {
+                if repr_attr.attr.content.is_empty() {
                     // treat empty repr as non-existent
                     // (this shouldn't be possible, but just in case)
                     None
@@ -24,7 +24,7 @@ fn find_enum_repr(val: &facet_macros_parse::Enum) -> String {
                 None
             }
         })
-        .flat_map(|repr_attr| repr_attr.attr.content.0.iter())
+        .flat_map(|repr_attr| repr_attr.attr.content.iter())
         .next()
         .map_or(String::from("isize"), |a| a.value.to_string())
 }
