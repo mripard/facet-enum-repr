@@ -10,7 +10,7 @@ authors = ["Maxime Ripard <mripard@kernel.org>"]
 edition = "2024"
 license-file = "./LICENSE"
 repository = "https://github.com/mripard/facet-enum-repr.git"
-version = "0.5.3"
+version = "0.5.4"
 
 [workspace.dependencies]
 facet = { version = "0.31.8", default-features = false }
