@@ -13,13 +13,13 @@ repository = "https://github.com/mripard/facet-enum-repr.git"
 version = "0.5.3"
 
 [workspace.dependencies]
-facet = { version = "0.28.1", default-features = false }
+facet = { version = "0.31.8", default-features = false }
 facet-enum-repr = { path = "./facet-enum-repr" }
 facet-enum-repr-derive = { path = "./facet-enum-repr-derive" }
-facet-macros-parse = { version = "0.28.0", default-features = false }
-facet-reflect = { version = "0.28.1", default-features = false }
+facet-macros-parse = { version = "0.31.8", default-features = false }
+facet-reflect = { version = "0.31.8", default-features = false }
 thiserror = { version = "2.0.17", default-features = false }
-unsynn = { version = "0.1.1", default-features = false }
+unsynn = { version = "0.3.0", default-features = false }
 
 [workspace.lints.rust]
 # Groups
