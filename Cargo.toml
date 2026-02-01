@@ -13,11 +13,11 @@ repository = "https://github.com/mripard/facet-enum-repr.git"
 version = "0.5.4"
 
 [workspace.dependencies]
-facet = { version = "0.41.0", default-features = false, features = ["alloc"] }
+facet = { version = "0.43.2", default-features = false, features = ["alloc"] }
 facet-enum-repr = { path = "./facet-enum-repr" }
 facet-enum-repr-derive = { path = "./facet-enum-repr-derive" }
-facet-macro-parse = { version = "0.41.0", default-features = false }
-facet-reflect = { version = "0.41.0", default-features = false }
+facet-macro-parse = { version = "0.43.2", default-features = false }
+facet-reflect = { version = "0.43.2", default-features = false }
 thiserror = { version = "2.0.17", default-features = false }
 unsynn = { version = "0.3.0", default-features = false }
 
